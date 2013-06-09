@@ -3,7 +3,10 @@ Carousel3
 
 #HTML5 Carousel using Three.js
 
-![Carousel](/carousel.png)
+[![Carousel3](/carousel.png)](http://foo123.github.com/examples/carousel3/)
+
+##Live Example
+http://foo123.github.com/examples/carousel3/
 
 
 *Contributor* Nikos M.  
