@@ -1,12 +1,12 @@
 Carousel3
 =========
 
-#HTML5 Carousel using Three.js
+__HTML5 Carousel using Three.js__
 
 [![Carousel3](/carousel.png)](http://foo123.github.com/examples/carousel3/)
 
-##Live Example
-http://foo123.github.com/examples/carousel3/
+###Live Example
+* [3D Carousel](http://foo123.github.com/examples/carousel3/)
 
 
 *Contributor* Nikos M.  
