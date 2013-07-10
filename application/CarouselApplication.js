@@ -47,9 +47,11 @@
         var vector = new THREE.Vector3( mouse.x, mouse.y, 1 );
         projector.unprojectVector( vector, camera );
 
-        var ray = new THREE.Ray( camera.position, vector.sub( camera.position ).normalize() );
+        //var ray = new THREE.Ray( camera.position, vector.sub( camera.position ).normalize() );
+        // newer three.js uses raycaster instead iof ray, to intersect
+        var rayCaster = new THREE.Raycaster( camera.position, vector.sub( camera.position ).normalize() );
 
-        var intersects = ray.intersectObjects( carousel.children );
+        var intersects = rayCaster.intersectObjects( carousel.children );
 
         if ( intersects.length > 0 )
             carousel.rotateToItem(intersects[0].object, function() {
