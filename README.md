@@ -9,7 +9,6 @@ __HTML5 Carousel using Three.js__
 * [3D Carousel](http://foo123.github.com/examples/carousel3/)
 
 
-*Contributor* Nikos M.  
 *URL* [Nikos Web Development](http://nikos-web-development.netai.net/ "Nikos Web Development")  
 *URL* [WorkingClassCode](http://workingclasscode.uphero.com/ "Working Class Code")  
 
